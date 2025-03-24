@@ -8,6 +8,21 @@
 
 
 
+graph TD
+    A[Enter Chart Definition] --> B(Preview)
+    B --> C{decide}
+    C --> D[Keep]
+    C --> E[Edit Definition]
+    E --> B
+    D --> F[Save Image and Code]
+    F --> B
+
+
+
+
+
+
+
 # Markdown Syntax
 
 Markdown is a easy-to-use markup language for writing and this document contains all supported markdown features.
