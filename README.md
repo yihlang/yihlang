@@ -6,8 +6,11 @@
 | Powtron-ATS-2025 | 產線測台用   | v2.1.15   |     |
 |                  |         |           |     |
 
+graph
+====
 
-```flowchart
+
+```mermaid
 graph TD
     A[Enter Chart Definition] --> B(Preview)
     B --> C{decide}
@@ -18,6 +21,13 @@ graph TD
     F --> B
 ```
 
+```mermaid
+graph TD;
+    A-->|Yes|B;
+    A-->|No|C[C-C-C];
+    B-->D;
+    C-->D;
+```
 
 
 
